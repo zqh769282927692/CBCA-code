@@ -43,9 +43,10 @@
 1     1
 0.6
   
-1          !是否考虑曲面
-1          ！补充曲面作为边界面，1表示考虑,0则不考虑
-1  1       ！该面的上方或下方的块体保留（0保留上方，1保留下方），补充的曲面序号
+1          ! is the surfaces considered？1 denotes yes.
+1          ！The supplementary surface is used as the boundary surface, 1 denotes yes.
+1  1       ！The block above or below the surface is retained (1 denotes that the below is retained), 
+                the number of the supplementary surface.
 
 
  

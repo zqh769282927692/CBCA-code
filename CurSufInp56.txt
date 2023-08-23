@@ -1,4 +1,4 @@
-12
+12                           'there are 12 surfaces.
 27	4	
 -10	-2	70
 130	-2	30
@@ -138,11 +138,9 @@
 
 
 
-15 2.4    !不同stp造成有的线段和线段交点几乎位于端点上，造成后续回路错，改变stp后可以克服这种错误
-1                !是否进行delaunary三角化,0否1是。因此通过人为输入，作为纠错的手段 2018.9.24
-4    8         ！ANGTOL=3.0 (10改为1后，三角形变少)，NMIN=1 (10改为1后，短线段处能画出三角形)
-            ！ 这里，8改为6,2 都出现块体缺失，且变化不大。不采用delaunary时，用kbte显示没问题，但图形不好看
-             ！采用delaunary可以用犀牛显示，但存在块体缺失   2023.4.4
+15 2.4       ! the maximum length of triangles of slave surface,  the length of step 
+0                !delaunary or not. 0 means no and 1 means yes.
+4    8         ！two control parameters of delaunary.
 	 
   
 

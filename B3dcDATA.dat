@@ -1,0 +1,47 @@
+*****The   1  time simulation analysis*****
+ ---Begining Time:153017.694  DATE:20230823---
+ t0z   153017.694000000     
+ Stochastic and fixed joint disc Number:           0
+ Fixed joint polygon Number:           2
+ Slope/cavern surface Number:           6
+ NJT(I0)=          38
+ Curved face Number:                    12
+ stp0=   2.40000000000000     
+ NJT(I0)       11098
+ NJT(I0)       11980
+  Total joint traces Number=       12998              -*-Time:153021.099
+  Intersections Number in CNODTZ=       12553         -*-Time:153021.562
+  Intersections Number in LPLNT        2143
+  Loops Number before DELETED:         534
+  Nodes Quantity in whole Numbering in topologic loops:         259      -*-Time
+ :153021.599
+  Nodes Quantity in whole Numbering after topologic loop expanded:        6722
+  Nodes Quantity in LPLN after topologic loop expanded:       25630
+  Edges Quantity in whole Numbering:        7109      -*-Time:153021.686
+  Loops Number after DELETED (NPP):         534       -*-Time:153021.722
+  The length of LOOP's vertexes in total:       52328
+ pf           2         394  0.129822119943168      -0.991537299940583     
+  0.000000000000000E+000  7.253703006830552E-002  0.255064457758045     
+  0.964199409695663     
+ pf           3         929 -0.129822119943168       0.991537299940583     
+  0.000000000000000E+000 -7.276961883993020E-002 -0.253597869817846     
+ -0.964568661629509     
+  LoopNext Finding finished.                         -*-Time:153021.818
+ Blocks Number (KB0) == :         147
+  TOTAL Blocks' Face Number:   1068 == Loops Number:   1068
+ Block's loops are used only one time, correct!
+ ALL Blocks are closed!                              -*-Time:153021.872
+ Vol_TOTAL=  1.898968093883013E-009
+ Number of negative blocks contained=           0
+  Positive Block Volume considered block_contained=     945045.14
+  The biggest 5 block Number,Volume,Percentage(%):
+     64      140610.77    14.8787
+     82       77917.06     8.2448
+     11       51931.51     5.4951
+     59       51701.38     5.4708
+     44       48152.68     5.0953
+ Blocks volume calculation finished.                 -*-Time:153021.877
+ Block Search Finished! Search Time is  1
+ ---Finished Time:153022.111---
+ t2z   153022.111000000     
+Time-consuming in operation(s):     4.42
